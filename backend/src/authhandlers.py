@@ -7,7 +7,7 @@ from flask import send_file, request, jsonify
 def register_new_user():
     """registers a new user in the DB, returns JWT Token"""
     # get user and password from front end
-
+    
     # create new entry in the database
 
     # TODO: confirm somehow??

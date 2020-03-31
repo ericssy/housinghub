@@ -3,6 +3,7 @@ import requests
 from flask import send_file, request, jsonify
 
 
+
 def get_landlord():
     """finds and returns a Landlord in the DB"""
     return server.err_out(500, "not implemented")
